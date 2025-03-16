@@ -6,7 +6,8 @@ Authors@R:c(
     person("Wenjing", "Yan", email = "yanwenjing202210@163.com", role = c("aut")),
     person("Dekang", "Lv", email = "dekanglv@126.com", role = c("aut", "cre"))
     )
-Description: A method that adjusts UMI counts to correct cross-cell amplification variability, enabling absolute gene expression quantification at the single-cell level
+Description: A method that adjusts UMI counts to correct cross-cell amplification variability, 
+             enabling absolute gene expression quantification at the single-cell level
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
