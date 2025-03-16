@@ -1,4 +1,5 @@
 #' @export
+#'
 caculate_LCUMI <- function(cnt_mtx,mol_info,span=0.5) {
     library(data.table)
     library(Matrix)
@@ -18,8 +19,9 @@ caculate_LCUMI <- function(cnt_mtx,mol_info,span=0.5) {
     LCUMI_matrix <- t(t(cnt_mtx) * (dt$corrected_total_umi / dt$total_umi))
     return(LCUMI_matrix)
 }
-
+#########
 #' @export
+#'
 integrate_samples <- function(list_rawUMI,list_LCUMI) {
     norm_factor <- unlist(lapply(list_rawUMI, function(x){sum(x)/ncol(x)}))
     names(norm_factor) <- names(list_rawUMI)
