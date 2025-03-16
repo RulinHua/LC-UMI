@@ -2,6 +2,7 @@
 
 ## Overview
 LcUMI is a method that adjusts UMI counts to correct cross-cell amplification variability, enabling absolute gene expression quantification at the single-cell level.
+
 This is an R package for enhancing the precision and reliability of single-cell transcriptomics. 
 
 ## Installation
