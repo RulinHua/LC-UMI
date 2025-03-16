@@ -17,3 +17,7 @@ BiocManager::install("LcUMI")
 ## To install the development version from the Github repo:
 devtools::install_github("RulinHua/LcUMI")
 ```
+## Learning to use
+``` r
+
+```
