@@ -2,3 +2,5 @@
 
 export(caculate_LCUMI)
 export(integrate_samples)
+import(data.table)
+import(Matrix)
