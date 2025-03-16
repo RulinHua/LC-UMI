@@ -1,10 +1,10 @@
 Package: LCUMI
-Title: What the Package Does (One Line, Title Case)
+Title: LOESS-Corrected UMI Counts Enable Absolute RNA Quantification in Single-Cell Transcriptomics
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Rulin Hua", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: A method that adjusts UMI counts to correct cross-cell amplification variability, enabling absolute gene expression quantification at the single-cell level
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
