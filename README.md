@@ -8,5 +8,12 @@ This is an R package for enhancing the precision and reliability of single-cell 
 ## Installation
 LcUMI is available in Bioconductor. In addition, one can install the development version from the Github repository:
 ``` r
+## To install the package from Bioconductor
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 
+BiocManager::install("LcUMI")
+
+## To install the development version from the Github repo:
+devtools::install_github("RulinHua/LcUMI")
 ```
