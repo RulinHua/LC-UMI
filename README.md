@@ -13,7 +13,3 @@ LCUMI is available in Bioconductor. In addition, one can install the development
 install.packages("devtools")
 devtools::install_github("RulinHua/LC-UMI")
 ```
-## Learning to use
-``` r
-
-```
