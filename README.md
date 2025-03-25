@@ -1,7 +1,7 @@
 # LC-UMI: LOESS regression-corrected UMI count
 
 ## Overview
-"LC-UMI" is a method that adjusts UMI counts based on per-cell amplification rates,improving the accuracy of UMI-based RNA quantification.
+LC-UMI is a method that adjusts UMI counts based on per-cell amplification rates, improving the accuracy of UMI-based RNA quantification.
 
 This is an R package for enhancing the precision and reliability of single-cell transcriptomics. 
 
