@@ -1,0 +1,19 @@
+Package: LcUMI
+Title: LOESS-Corrected UMI Counts for Single-Cell RNA-seq
+Version: 0.1.0
+Authors@R: 
+    person("Rulin", "Hua", , "rulinhua@gmail.com", role = c("aut", "cre"))
+Description: Corrects cross-cell amplification bias in single-cell UMI count data using LOESS regression. 
+    This method adjusts total UMI counts based on per-cell amplification rates, improving the accuracy of 
+    UMI-based RNA quantification. The corrected expression matrix supports downstream analyses such as 
+    clustering, differential expression, and trajectory inference.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: data.table, Matrix, ggplot2
+Suggests: testthat, knitr, rmarkdown
+NeedsCompilation: no
+Packaged: 2025-03-24 10:05:32 UTC; 22647
+Author: Rulin Hua [aut, cre]
+Maintainer: Rulin Hua <rulinhua@gmail.com>
